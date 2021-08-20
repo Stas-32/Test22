@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body, html {
+			background-color: white;
+			padding: 0;
+			margin: 0;
+		}
+		.nav-link {
+			color: navy !important;
+			padding-left: 2rem !important;
+			padding-right: 2rem !important;
+			font-family: Inter;
+		}
+		.btn {
+			font-family: Inter
+		}
+		.btn-success {
+			background-color: navy;
+			border: none;
+		}
+		.btn-success:hover {
+			background-color: navy
+		}
+		.btn-outline-success {
+			border: none;
+			color: navy;
+		}
+		.btn-outline-success:hover {
+			background-color: navy;
+			color: white;
+		}
+		.background_circle {
+			position: absolute;
+			width: 35vw;
+			height: 35vw;
+			border-radius: 50%;
+			left: -10%;
+			top: -10%;
+			background-color: #FF523D;
+			filter: blur(120px);
+			opacity: 0.2;
+		}
+		h1 {
+			color: navy;
+			font-family: Inter;
+			font-weight: bold;
+			line-height: 60px;
+			font-size: 48px;
+		}
+		h2 {
+			color: navy;
+			font-family: Inter;
+			font-weight: bold;
+			line-height: 50px;
+			font-size: 36px;
+		}
+		p {
+			color: navy;
+			font-family: Inter;
+		}
+		.rating {
+			color: navy;
+			font-family: Inter;
+			font-weight: bolder;
+			line-height: 70px;
+			font-size: 66px;
+		}
+		.small_icon {
+			height: 1rem;
+			padding-left:0.1rem;
+			padding-right:0.1rem;
+		}
+		a {
+			font-size: 1.2rem;
+			color: navy;
+			font-family: Inter;
+			font-weight: bold
+		}
+		h2.mt-3 {
+			font-size:2rem;
+		}
+		@media screen and (max-width: 555px) {
+			.main_image {
+				margin-left: -10%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="background_circle"></div>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container py-2">
+			<a class="navbar-brand mr-5 p-0" href="#">
+				<img src="images/logo.png" style="height: 2rem;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Feature</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Solution</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Faq</a>
+					</li>
+				</ul>
+				<button class="btn btn-outline-success py-2 mr-2 px-4">Sign in</button>
+				<button class="btn btn-success py-2 px-4">Download</button>
+			</div>
+		</div>
+	</nav>
+	<div class="container mt-5 py-5">
+		<div class="row">
+			<div class="col-md-6 d-flex align-items-center">
+				<div>
+					<h1>The best video online meeting software.</h1>
+					<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
+				</div>
+			</div>
+			<div class="col-md-6 d-flex justife-content-center">
+				<img src="images/screens.png" class="main_image" style="width: 100%;object-fit: contain"; height="auto">
+			</div>
+		</div>
+	</div>
+	<div class="container mt-5 py-5">
+		<div class="row">
+			<div class="col-md-6 d-flex align-items-center">
+				<h2>Collaborate 2M+ startup and international companies ueses since 2018 </h2>
+			</div>
+			<div class="col-md-6 d-flex justify-content-center justify-content-md-end ">
+				<div class="mr-4">
+					<p class="rating">15k</p>
+					<div class="d-flex mt-0">
+						<img src="images/heart.png" class="small_icon">
+						<img src="images/heart.png" class="small_icon">
+						<img src="images/heart.png" class="small_icon">
+						<img src="images/heart.png" class="small_icon">
+						<img src="images/heart.png" class="small_icon">
+					</div>
+					<p class="mt-3">Active Downloads</p>
+				</div>
+				<div>
+					<p class="rating">4.9</p>
+					<div class="d-flex mt-0">
+						<img src="images/star.png" class="small_icon">
+						<img src="images/star.png" class="small_icon">
+						<img src="images/star.png" class="small_icon">
+						<img src="images/star.png" class="small_icon">
+						<img src="images/star.png" class="small_icon">
+					</div>
+					<p class="mt-3">2,938 Rating</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3 col-md-2 d-flex justify-content-center">
+				<img src="images/partner-airbnb.png" style="width: 70%;object-fit: contain">
+			</div>
+			<div class="col-3 col-md-2 d-flex justify-content-center">
+				<img src="images/partner-hubspot.png" style="width: 70%;object-fit: contain">
+			</div>
+			<div class="col-3 col-md-2 d-flex justify-content-center">
+				<img src="images/partner-google.png" style="width: 70%;object-fit: contain">
+			</div>
+			<div class="col-3 col-md-2 d-flex justify-content-center">
+				<img src="images/partner-microsoft.png" style="width: 70%;object-fit: contain">
+			</div>
+			<div class="col-2 justify-content-center d-none d-sm-flex">
+				<img src="images/partner-walmart.png" style="width: 70%;object-fit: contain">
+			</div>
+			<div class="col-2 justify-content-center d-none d-sm-flex">
+				<img src="images/partner-fedex.png" style="width: 70%;object-fit: contain">
+			</div>
+		</div>
+	</div>
+	<div class="container mt-5 py-5">
+		<h1 style="text-align: center">Our Special Features</h1>
+		<p style="text-align: center">We are familiar with offline speed dating flow so we designed out online<br> platform considering all the requirements</p>
+		<div class="row">
+			<div class="col-md-4 py-3">
+				<img src="images/icon-sale.png" style="height: 7rem">
+				<h2 class="mt-3">Affordable Pricing</h2>
+				<p>A dictionary of over 200 Latin words,with a handful of model sentence. structures, to generate Lorem Ipsum</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div class="col-md-4 py-3">
+				<img src="images/icon-medal1.png" style="height: 7rem">
+				<h2 class="mt-3">Seamless Reliability</h2>
+				<p>A dictionary of over 200 Latin words,with a handful of model sentence. structures, to generate Lorem Ipsum</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div class="col-md-4 py-3">
+				<img src="images/icon-medal2.png" style="height: 7rem">
+				<h2 class="mt-3">Secure Collaboration</h2>
+				<p>A dictionary of over 200 Latin words,with a handful of model sentence. structures, to generate Lorem Ipsum</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</html>
